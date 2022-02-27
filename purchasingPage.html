@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purchasing</title>
+    <link rel="stylesheet" href="./assets/css/nomalize.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/purchasingCSS.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-5.12.1/fontawesome-free-5.12.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/35c07c9ed2.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <header>
+    <div class="grid">
+        <div class="grid_row_nav">
+            <div class="nav-header">
+                <ul class="nav-list">
+                    <li class="nav-item nav-item-left"><a href=""><i class="far fa-question-circle"></i>Can we help
+                        you?</a>
+                    </li>
+                    <li class="nav-item  nav-item-left"><a href=""><i class="fas fa-phone"></i>+1 246-345-0695</a>
+                    </li>
+                </ul>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href=""><i class="fas fa-map-marker-alt"></i></a></li>
+                    <li class="nav-item"><a href=""><i class="far fa-heart"></i></a></li>
+                    <li class="nav-item"><a href=""><i class="fas fa-user-alt"></i></a></li>
+                    <li class="nav-item"><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="nav-container">
+            <img src="assets/img/logo.png">
+            <ul class="menu-top-nav">
+                <li><a href="#"> home <i class="fas fa-angle-down angle-opa"></i></a>
+                    <ul class="menu-top-nav-sub">
+                        <li><a href="#"> home sub </a></li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                    </ul>
+
+                </li>
+                <li><a href="#"> main page <i class="fas fa-angle-down angle-opa"></i> </a>
+                    <ul class="menu-top-nav-sub">
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                    </ul>
+                </li>
+                <li><a href="#"> contact <i class="fas fa-angle-down angle-opa"></i></a>
+                    <ul class="menu-top-nav-sub">
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                    </ul>
+                </li>
+                <li><a href="#"> about us <i class="fas fa-angle-down angle-opa"></i></a>
+                    <ul class="menu-top-nav-sub">
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                    </ul>
+                </li>
+                <li><a href="#"> other <i class="fas fa-angle-down angle-opa"></i></a>
+                    <ul class="menu-top-nav-sub">
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                        <li><a href="#"> home sub</a> </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="search-top-nav">
+                <input type="text" placeholder="Search...">
+                <i class="fas fa-search top-nav-icon-search"></i>
+            </div>
+        </div>
+    </div>
+
+</header>
+    <!---------------------------------->
+    <div class="purchasing-label-container grid">
+        <div class="purchasing-label-left col-4">Shop Single</div>
+        <div class="purchasing-label-right col-8">
+                <div class="purchasing-label-right-text">Home</div>
+                <i class="fas fa-chevron-right fa-sm"></i>
+                <div class="purchasing-label-right-text">Shop</div>
+                <i class="fas fa-chevron-right fa-sm"></i>
+                <div class="purchasing-label-right-text">Shop single</div>
+        </div>
+    </div>
+    <!----------------->
+    <div class="main-purchasing-container grid">
+        <div class="main-purchasing-left col-5">
+            <img src="./assets/img/book2.jpg" >
+        </div>
+
+        <div class="main-purchasing-right col-7">
+            <p>  THE CUTTING EGDE</p>
+            <div class="main-purchasing-right-author">
+                <div class="author-star col-3">
+                    <i class="fas fa-star fa-sm"></i>
+                    <i class="fas fa-star fa-sm"></i>
+                    <i class="fas fa-star fa-sm"></i>
+                    <i class="fas fa-star fa-sm"></i>
+                    <i class="fas fa-star fa-sm"></i>
+                </div>
+                <div class="author-view col-2">(3,194)</div>
+                <div class="author-view col-3">By (author)</div>
+                <div class="author-name col-6">Joseph D</div>
+            </div>
+
+            <div class="main-purchasing-right-prices">
+                $29.55 - $50.00
+            </div>
+
+            <div class="main-purchasing-right-book-format">
+                Book format: <span> Choose an option</span>
+            </div>
+
+            <div class="main-purchasing-right-choose">
+                <div class="main-purchasing-right-opt default-opt">
+                    <div class="main-purchasing-right-opt-text">Hardcover</div>
+                    <div class="main-purchasing-right-opt-text" >$9.55</div>
+                </div>
+                <div class="main-purchasing-right-opt">
+                    <div class="main-purchasing-right-opt-text">Paper Back</div>
+                    <div class="main-purchasing-right-opt-text">$10.55</div>
+                </div>
+                <div class="main-purchasing-right-opt">
+                    <div class="main-purchasing-right-opt-text">Kindle</div>
+                    <div class="main-purchasing-right-opt-text">$15.55</div>
+                </div>
+            </div>
+
+
+            <div class="main-purchasing-right-content">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium consequuntur dicta dolorem earum, exercitationem expedita fugiat harum itaque labore laborum minima natus nisi nostrum omnis porro provident quia quisquam rerum saepe veniam voluptates. Ad adipisci aliquam architecto beatae, cumque deleniti dolore fuga inventore molestias, omnis perspiciatis, rem totam!
+            </div>
+
+            <div class="main-purchasing-right-add-cart-container">
+                <div class="main-purchasing-right-add-cart-left col-4">
+                    <div class="cart-left-btn cart-flex cart-flex-font">-</div>
+                    <div class="cart-left-number cart-flex" id="numberPurchasing">1</div>
+                    <div class="cart-left-btn cart-flex cart-flex-font">+</div>
+                </div>
+                <div class="main-purchasing-right-add-cart-right col-8">
+                    <div class="btn btn-dark btn-lg">Add to cart</div>
+                </div>
+            </div>
+            <div class="main-purchasing-right-end">
+                <div class="main-purchasing-right-end-wish-list">
+                    <i class="far fa-heart"></i>
+                     add to wishlist
+                </div>
+                <div class="main-purchasing-right-end-share">
+                    <i class="fas fa-share-alt"></i>
+                    Share
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------->
+    <div class="change-to-scroll-container grid">
+        <div class="change-to-scroll-element cts-spec js-for-describe" >Description</div>
+        <div class="change-to-scroll-element">Product detail</div>
+        <div class="change-to-scroll-element">Videos</div>
+        <div class="change-to-scroll-element">Reviews</div>
+    </div>
+    <!----------------->
+    <div class="purchasing-description grid">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem consequuntur corporis cum cupiditate dolorem doloremque ea eligendi eos, ex expedita facilis iure laudantium magni nihil, reiciendis ut vero voluptatibus!<br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto laudantium libero magnam minus quidem saepe?<br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, inventore, necessitatibus. Doloribus eos in possimus quas quis. Ab alias culpa dolores ea earum eius, est facilis ipsum officiis omnis porro possimus quasi repellendus repudiandae similique totam voluptatibus? Aperiam autem deleniti, dolore doloremque dolores eveniet incidunt nihil quae quisquam repellendus, temporibus.<br> <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolores eveniet fugit sequi. Consequatur distinctio eos est exercitationem ipsam itaque minima odit vel vitae? Animi assumenda atque consequuntur cum deserunt dolores et ipsam iusto laboriosam maiores minima modi molestias mollitia quo, ut, vitae voluptas? Accusamus asperiores culpa cupiditate fugiat hic ipsum iusto, nam neque perspiciatis quis, sequi tempora tempore vero? A adipisci aliquid cumque eius excepturi exercitationem fugiat, quia saepe temporibus? Aliquam, consequatur corporis debitis dignissimos distinctio ducimus eius exercitationem explicabo facere hic magni, nostrum officia quam quisquam repellendus sequi totam vel voluptas? Asperiores aspernatur culpa cumque, deleniti distinctio dolor enim est eum illum inventore ipsa magni modi nam necessitatibus nemo quae quaerat reprehenderit tenetur, ullam vel, velit vero voluptatum? Architecto eos facilis ipsam iusto nisi repudiandae similique voluptatibus voluptatum. Dolore ea excepturi harum quasi quod reiciendis unde veniam. Aspernatur, cupiditate ducimus impedit itaque labore numquam quod quos similique veniam.
+        <br><br><br>
+        joseph D
+    </div>
+    <!----------------->
+    <div class="change-to-scroll-container grid">
+        <div class="change-to-scroll-element cts-spec js-for-describe">Description</div>
+        <div class="change-to-scroll-element">Product detail</div>
+        <div class="change-to-scroll-element">Videos</div>
+        <div class="change-to-scroll-element">Reviews</div>
+    </div>
+    <!---------------------------------->
+    <div class="purchasing-production-detail-container grid">
+        <table class="table  table-hover table-borderless purchasing-production-detail-table">
+            <tr>
+                <td class="product-table-title">Format:</td>
+                <td>Paper back | 384 pages</td>
+            </tr>
+            <tr>
+                <td class="product-table-title">Dimenion:</td>
+                <td>9126 x 194 x 28mm | 301g</td>
+            </tr>
+            <tr>
+                <td class="product-table-title">Publication date:</td>
+                <td>20 Dec 2020</td>
+            </tr>
+            <tr>
+                <td class="product-table-title">Publisher:</td>
+                <td>Little, Brown Book Group</td>
+            </tr>
+            <tr>
+                <td class="product-table-title">Imprint:</td>
+                <td>Corsair</td>
+            </tr>
+            <tr>
+                <td class="product-table-title">Publication City/Country:</td>
+                <td>	London, United Kingdom</td>
+            </tr>
+            <tr>
+                <td class="product-table-title">Language:</td>
+                <td>English</td>
+            </tr>
+
+        </table>
+    </div>
+    <!---------------------------------->
+    <div class="change-to-scroll-container grid">
+        <div class="change-to-scroll-element cts-spec js-for-describe">Description</div>
+        <div class="change-to-scroll-element">Product detail</div>
+        <div class="change-to-scroll-element">Videos</div>
+        <div class="change-to-scroll-element">Reviews</div>
+    </div>
+    <!---------------------------------->
+    <div class="purchasing-videos grid">
+        <div class="purchasing-videos-item col-6">
+            <img src="./assets/img/img-card-1.PNG">
+            <div class="videos-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, reiciendis.
+                <div>
+                    Joseph D
+                </div>
+            </div>
+            <div class="videos-time">
+                1:45
+            </div>
+            <div class="purchasing-videos-overlay">
+
+            </div>
+            <i class="far fa-play-circle fa-5x"></i>
+        </div>
+        <div class="purchasing-videos-item col-6">
+            <img src="./assets/img/img-card-2.PNG">
+            <div class="videos-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, reiciendis.
+                <div>
+                    Joseph T
+                </div>
+            </div>
+            <div class="videos-time">
+                2:25
+            </div>
+            <div class="purchasing-videos-overlay">
+
+            </div>
+            <i class="far fa-play-circle fa-5x"></i>
+        </div>
+
+    </div>
+    <!---------------------------------->
+    <div class="change-to-scroll-container grid">
+        <div class="change-to-scroll-element cts-spec js-for-describe">Description</div>
+        <div class="change-to-scroll-element">Product detail</div>
+        <div class="change-to-scroll-element">Videos</div>
+        <div class="change-to-scroll-element">Reviews</div>
+    </div>
+    <!---------------------------------->
+    <div class="purchasing-reviews-container grid">
+        <div class="purchasing-reviews-left col-6">
+            Customer reviews
+            <div class="purchasing-reviews-left-vote-rate">
+                    <div class="vote-rate-number-left col-1">4.5</div>
+                    <div class="vote-rate-number-right col-11">
+                        <div class="vote-rate-number-right-reviews">3,712 reviews</div>
+                        <div class="vote-rate-number-right-star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star vote-rate-unchecked"></i>
+                        </div>
+                    </div>
+            </div>
+            <div class="purchasing-reviews-left-btn">
+                <div class="btn-dark reviews-btn-fl">See all reviews </div>
+                <div class=" btn-outline-dark reviews-btn-fl">write reviews </div>
+            </div>
+        </div>
+
+        <div class="purchasing-reviews-right col-6">
+            <div class="purchasing-reviews-right-progress-bar">
+                <div class="col-2">5 stars</div>
+                <div class="col-8 progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 80%; height: 1rem"></div>
+                </div>
+                <div class="col-2">255</div>
+            </div>
+            <div class="purchasing-reviews-right-progress-bar">
+                <div class="col-2">4 stars</div>
+                <div class="col-8 progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 50%; height: 1rem"></div>
+                </div>
+                <div class="col-2">120</div>
+            </div>
+            <div class="purchasing-reviews-right-progress-bar">
+                <div class="col-2">3 stars</div>
+                <div class="col-8 progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 25%; height: 1rem"></div>
+                </div>
+                <div class="col-2">50</div>
+            </div>
+            <div class="purchasing-reviews-right-progress-bar">
+                <div class="col-2">2 stars</div>
+                <div class="col-8 progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 5%; height: 1rem"></div>
+                </div>
+                <div class="col-2">5</div>
+            </div>
+            <div class="purchasing-reviews-right-progress-bar">
+                <div class="col-2">1 stars</div>
+                <div class="col-8 progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" style="width: 2%; height: 1rem"></div>
+                </div>
+                <div class="col-2">1</div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------->
+    <div class="purchasing-write-reviews grid">
+        <div class="number-of-write-reviews ">1-5 of 232 reviews</div>
+        <div class="purchasing-write-reviews-content-container">
+        <div class="purchasing-write-reviews-content-title">
+            Amazing Story! You will LOVE it &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star vote-rate-unchecked"></i>
+        </div>
+        <div class="purchasing-write-reviews-content-content">
+            Such an incredibly complex story! I had to buy it because there was a waiting list of 30+ at the local library for this book. Thrilled that I made the purchase
+        </div>
+        <div class="purchasing-write-reviews-content-date">
+            Staci, February 22, 2020
+        </div>
+        <div class="purchasing-write-reviews-content-emoji">
+            <div class="emoji">
+                <i class="far fa-thumbs-up"></i> &nbsp;&nbsp;90
+            </div>
+            <div class="emoji">
+                <i class="far fa-thumbs-down"></i> &nbsp;&nbsp;12
+            </div>
+            <div class="emoji">
+                <i class="far fa-flag"></i>
+            </div>
+        </div>
+    </div>
+        <div class="purchasing-write-reviews-content-container">
+            <div class="purchasing-write-reviews-content-title">
+                Get the best seller at a great price.
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+            <div class="purchasing-write-reviews-content-content">
+                Awesome book, great price, fast delivery. Thanks so much.
+            </div>
+            <div class="purchasing-write-reviews-content-date">
+                Staci, march 22, 2020
+            </div>
+            <div class="purchasing-write-reviews-content-emoji">
+                <div class="emoji">
+                    <i class="far fa-thumbs-up"></i> &nbsp;&nbsp;53
+                </div>
+                <div class="emoji">
+                    <i class="far fa-thumbs-down"></i> &nbsp;&nbsp;2
+                </div>
+                <div class="emoji">
+                    <i class="far fa-flag"></i>
+                </div>
+            </div>
+        </div>
+        <div class="purchasing-write-reviews-content-container">
+            <div class="purchasing-write-reviews-content-title">
+                I read this book short...
+                &nbsp; &nbsp; &nbsp; &nbsp;
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star " style="color: black"></i>
+            </div>
+            <div class="purchasing-write-reviews-content-content">
+                I read this book shortly after I got it and didn't just put it on my TBR shelf mainly because I saw it on Reese Witherspoon's bookclub September read. It was one of the best books I've read this year, and reminded me some of Kristen Hannah's The Great Alone.
+            </div>
+            <div class="purchasing-write-reviews-content-date">
+                Staci, April 22, 2020
+            </div>
+            <div class="purchasing-write-reviews-content-emoji">
+                <div class="emoji">
+                    <i class="far fa-thumbs-up"></i> &nbsp;&nbsp;90
+                </div>
+                <div class="emoji">
+                    <i class="far fa-thumbs-down"></i> &nbsp;&nbsp;90
+                </div>
+                <div class="emoji">
+                    <i class="far fa-flag"></i>
+                </div>
+            </div>
+        </div>
+        <div class="purchasing-write-reviews-content-container">
+            <div class="purchasing-write-reviews-content-title">
+                Lorem ipsum dolor sit. &nbsp; &nbsp; &nbsp; &nbsp;
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star vote-rate-unchecked"></i>
+            </div>
+            <div class="purchasing-write-reviews-content-content">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, amet architecto beatae eveniet numquam voluptas.
+            </div>
+            <div class="purchasing-write-reviews-content-date">
+                Staci, may 1, 2020
+            </div>
+            <div class="purchasing-write-reviews-content-emoji">
+                <div class="emoji">
+                    <i class="far fa-thumbs-up"></i> &nbsp;&nbsp;90
+                </div>
+                <div class="emoji">
+                    <i class="far fa-thumbs-down"></i> &nbsp;&nbsp;90
+                </div>
+                <div class="emoji">
+                    <i class="far fa-flag"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------->
+    <div class="purchasing-write-reviews-text-input grid">
+    <div class="purchasing-write-reviews-font"> Write a Review</div>
+    <div class="purchasing-write-reviews-font">select a rating (required): &nbsp;&nbsp;
+        <i class="fas fa-star" style="color: orange"></i>
+        <i class="fas fa-star" style="color: orange"></i>
+        <i class="fas fa-star" style="color: orange"></i>
+        <i class="fas fa-star" style="color: orange"></i>
+        <i class="fas fa-star" style="color: orange"></i>
+    </div>
+    <div class="purchasing-write-reviews-details">Details please! Your review helps other shoppers.</div>
+    <textarea rows="10" class="purchasing-write-reviews-textarea" placeholder="what did you like or dislike? what should other shoppers knows before buying?"></textarea>
+    <div class="purchasing-write-reviews-add-title">Add title</div>
+    <textarea rows="1" class="purchasing-write-reviews-textarea" placeholder="please add title !"></textarea>
+        <div class="btn-dark purchasing-write-reviews-submit">Submit reviews</div>
+    </div>
+    <!---------------------------------->
+    <div class="purchasing-subscribe-container">
+        <div class="subscribe-title ">Join our newsletter</div>
+        <div style="font-size: 1.5rem">Signup to be the first to hear about exclusive deals, special offers and upcoming collections</div>
+        <div class="subscribe-input">
+            <div class="col-10 subscribe-input-input"><input type="text" placeholder="Enter email for weekly newsletter"></div>
+
+            <div class="col-2 btn-dark subscribe-input-btn">Subscribe</div>
+        </div>
+    </div>
+    <!---------------------------------->
+    <footer class="footer">
+        <div class="grid ">
+            <div class="grid_row footer-top">
+                <div class="grid_column-4 footer-first-col">
+                    <img src="assets/img/main_logo.png" alt="">
+                    <p>1418 River Drive, Suite 35 Cottonhall, CA 9622
+                        United States</p>
+                    <p><a href=""><i class="fas fa-phone footer-first-col-icon "></i>+1 246-345-0695</a></p>
+                    <p><a href=""><i class="far fa-envelope footer-first-col-icon"></i>sale@bookworm.com</a></p>
+
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Explore</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">About as</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Sitemap</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Bookmarks</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Sign in/join</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+                <div class="grid_column-2">
+                    <div class="footer-header">Policy</div>
+                    <ul class="footer_list">
+                        <li class="footer_item"><a href="" class="footer-item-link">Return Policy</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Terms Of Use</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Security</a></li>
+                        <li class="footer_item"><a href="" class="footer-item-link">Privacy</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-left">
+                    <p>&copy; Puta & Đạt Ma</p>
+                </div>
+                <div class="footer-bottom-right">
+                    <p><img src="assets/img/partner.png" alt=""></p>
+                    <div class="dropdown">
+                        <button type="button" class="btn  dropdown-toggle language " data-toggle="dropdown">
+                            English (United States)
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">English (United States)</a>
+                            <a class="dropdown-item" href="#">Deutsch</a>
+                            <a class="dropdown-item" href="#">Français</a>
+                            <a class="dropdown-item" href="#">Español</a>
+                        </div>
+                    </div>
+                    <div class="dropdown ">
+                        <button type="button" class="btn  dropdown-toggle currency" data-toggle="dropdown">
+                            $ USD
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">$ USD</a>
+                            <a class="dropdown-item" href="#">€ EUR</a>
+                            <a class="dropdown-item" href="#">₺ TL</a>
+                            <a class="dropdown-item" href="#">₽ RUB</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <script src="purchasing.js"></script>
+</body>
+</html>
